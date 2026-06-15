@@ -2,6 +2,8 @@ title: 山屿智能文档中心
 description: 产品文档库
 baseurl: ""
 url: "https://shanyuknowledge.github.io"
+github_username: ShanyuKnowledge
+github_repository: ShanyuKnowledge.github.io
 permalink: /:title/
 
 theme: jekyll-theme-minimal
