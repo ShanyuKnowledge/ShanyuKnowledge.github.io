@@ -22,9 +22,9 @@ docsify serve
 
 ## 文档导航
 
-- [快速入门](docs/quickstart.md)
-- [安装说明](docs/installation.md)
-- [用户指南](docs/user-guide.md)
-- [API 文档](docs/api.md)
-- [开发环境搭建](docs/development/setup.md)
-- [代码规范](docs/development/coding-standard.md)
+- [快速入门](Docs/quickstart.md)
+- [安装说明](Docs/installation.md)
+- [用户指南](Docs/user-guide.md)
+- [API 文档](Docs/api.md)
+- [开发环境搭建](Docs/development/setup.md)
+- [代码规范](Docs/development/coding-standard.md)
