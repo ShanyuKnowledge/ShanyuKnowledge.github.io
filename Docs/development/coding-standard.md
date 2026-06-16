@@ -1,9 +1,3 @@
----
-layout: default
-title: 代码规范
-description: 项目代码规范说明
----
-
 # 代码规范
 
 本文档描述 Shanyu Knowledge 项目的代码规范。

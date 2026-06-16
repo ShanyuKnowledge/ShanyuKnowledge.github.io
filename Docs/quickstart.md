@@ -1,9 +1,3 @@
----
-layout: default
-title: 快速入门指南
-description: 快速了解如何使用本产品
----
-
 # 快速入门指南
 
 欢迎使用 Shanyu Knowledge！本指南将帮助您快速了解如何使用我们的产品。

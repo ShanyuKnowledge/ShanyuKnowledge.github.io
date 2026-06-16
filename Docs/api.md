@@ -1,9 +1,3 @@
----
-layout: default
-title: API 文档
-description: 产品 API 接口说明
----
-
 # API 文档
 
 本文档介绍 Shanyu Knowledge 的 API 接口。

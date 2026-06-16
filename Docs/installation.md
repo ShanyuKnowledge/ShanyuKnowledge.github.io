@@ -1,9 +1,3 @@
----
-layout: default
-title: 安装说明
-description: 产品安装和配置指南
----
-
 # 安装说明
 
 本文档介绍如何安装和配置 Shanyu Knowledge。

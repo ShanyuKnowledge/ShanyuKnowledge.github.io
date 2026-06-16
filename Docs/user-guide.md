@@ -1,9 +1,3 @@
----
-layout: default
-title: 用户指南
-description: 详细的产品使用教程
----
-
 # 用户指南
 
 本文档详细介绍如何使用 Shanyu Knowledge 的各项功能。

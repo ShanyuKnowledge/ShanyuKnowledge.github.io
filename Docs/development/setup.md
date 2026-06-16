@@ -1,79 +1,49 @@
----
-layout: default
-title: 开发环境搭建
-description: 如何搭建本地开发环境
----
-
 # 开发环境搭建
 
 本文档介绍如何搭建 Shanyu Knowledge 的本地开发环境。
 
 ## 环境要求
 
-- Ruby 2.7+
-- Bundler
-- Node.js (可选，用于前端开发)
+- Python 3.x（用于启动本地 HTTP 服务器）
+- Node.js（可选，使用 docsify-cli）
 
 ## 安装步骤
 
-### 1. 安装 Ruby
-
-#### macOS
+### 方式一：使用 Python（推荐）
 
 ```bash
-# 使用 Homebrew 安装
-brew install ruby
+# 启动本地服务器
+python -m http.server 3000
 ```
 
-#### Ubuntu/Debian
+访问 `http://localhost:3000` 查看效果。
+
+### 方式二：使用 docsify-cli
 
 ```bash
-sudo apt-get update
-sudo apt-get install ruby-full
+# 安装 docsify-cli
+npm install -g docsify-cli
+
+# 启动本地服务器
+docsify serve
 ```
 
-### 2. 安装 Bundler
-
-```bash
-gem install bundler
-```
-
-### 3. 克隆仓库
-
-```bash
-git clone https://github.com/ShanyuKnowledge/Shanyuknowledge.github.io.git
-cd Shanyuknowledge.github.io
-```
-
-### 4. 安装依赖
-
-```bash
-bundle install
-```
-
-### 5. 启动开发服务器
-
-```bash
-bundle exec jekyll serve --livereload
-```
-
-访问 `http://localhost:4000` 查看效果。
+访问 `http://localhost:3000` 查看效果。
 
 ## 开发命令
 
 | 命令 | 说明 |
 |------|------|
-| `bundle exec jekyll serve` | 启动开发服务器 |
-| `bundle exec jekyll build` | 构建生产版本 |
-| `bundle exec jekyll clean` | 清理构建产物 |
+| `python -m http.server 3000` | 使用 Python 启动开发服务器 |
+| `docsify serve` | 使用 docsify-cli 启动开发服务器 |
 
 ## 目录结构
 
 ```
-├── _config.yml        # 站点配置
-├── _docs/             # 文档内容
-├── _layouts/          # 布局模板
-├── _data/             # 数据文件
-├── assets/            # 静态资源
-└── index.md           # 首页
+├── index.html         # Docsify 入口文件
+├── _sidebar.md        # 侧边栏导航配置
+├── README.md          # 首页内容
+└── Docs/              # 文档目录
+    ├── LGT-Nano系列/  # 产品文档
+    └── development/   # 开发文档
 ```
