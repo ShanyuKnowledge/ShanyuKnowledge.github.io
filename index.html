@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>山屿智能文档中心</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4.13.0/lib/themes/vue.css">
+  <style>
+    .sidebar-nav > ul {
+      padding-left: 0;
+      margin: 0;
+    }
+    .sidebar-nav ul {
+      padding-left: 16px;
+      margin: 4px 0;
+    }
+    .sidebar-nav li {
+      list-style: none;
+      margin: 2px 0;
+    }
+    .sidebar-nav li > p,
+    .sidebar-nav li > a {
+      cursor: pointer;
+      user-select: none;
+      padding: 2px 0;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+    }
+    .sidebar-nav li.category > p {
+      font-weight: 600;
+      color: #333;
+    }
+    .sidebar-nav li.category .arrow {
+      font-size: 10px;
+      margin-right: 6px;
+      color: #999;
+      transition: transform 0.2s;
+      display: inline-block;
+      width: 12px;
+      text-align: center;
+    }
+    .sidebar-nav li.category.open .arrow {
+      transform: rotate(90deg);
+    }
+    .sidebar-nav li.category > ul {
+      display: none;
+    }
+    .sidebar-nav li.category.open > ul {
+      display: block;
+    }
+    .sidebar-nav li:not(.category) > p::before,
+    .sidebar-nav li:not(.category) > a::before {
+      content: '•';
+      font-size: 10px;
+      margin-right: 6px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '山屿智能文档中心',
+      repo: 'https://github.com/ShanyuKnowledge/ShanyuKnowledge.github.io',
+      loadSidebar: '_sidebar.md',
+      maxLevel: 3,
+      homepage: 'README.md',
+      auto2top: true,
+      search: {
+        depth: 3
+      }
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4.13.0/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4.13.0/lib/plugins/search.min.js"></script>
+  <script>
+    window.$docsify.plugins = [
+      function(hook, vm) {
+        hook.doneEach(function() {
+          var sidebar = document.querySelector('.sidebar-nav');
+          if (!sidebar) return;
+
+          var topUl = sidebar.querySelector('ul');
+          if (!topUl) return;
+
+          var topLevelItems = topUl.children;
+          for (var i = 0; i < topLevelItems.length; i++) {
+            var item = topLevelItems[i];
+            if (item.tagName !== 'LI') continue;
+
+            var sublist = item.querySelector('ul');
+            if (sublist) {
+              item.classList.add('category');
+              item.classList.add('open');
+
+              var text = item.querySelector('p');
+              if (text && !text.querySelector('.arrow')) {
+                var arrow = document.createElement('span');
+                arrow.className = 'arrow';
+                arrow.textContent = '▶';
+                text.insertBefore(arrow, text.firstChild);
+
+                text.addEventListener('click', function(e) {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  var li = this.parentElement;
+                  li.classList.toggle('open');
+                });
+              }
+            }
+          }
+        });
+      }
+    ];
+  </script>
+</body>
+</html>
