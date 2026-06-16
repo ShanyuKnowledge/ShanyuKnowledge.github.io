@@ -6,34 +6,40 @@
   <title>山屿智能文档中心</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4.13.0/lib/themes/vue.css">
   <style>
-    .sidebar-nav {
-      padding-left: 10px;
+    .sidebar-nav ul {
+      padding-left: 20px;
+      margin: 0;
     }
     .sidebar-nav li {
       list-style: none;
-    }
-    .sidebar-nav li.active > ul {
-      display: block;
-    }
-    .sidebar-nav li > ul {
-      display: none;
-    }
-    .sidebar-nav li > a + ul {
-      padding-left: 20px;
+      margin: 2px 0;
     }
     .sidebar-nav li > a {
       cursor: pointer;
-      display: flex;
-      align-items: center;
+      user-select: none;
     }
-    .sidebar-nav li > a::before {
+    .sidebar-nav li.collapsible > a::before {
       content: '▶';
-      font-size: 8px;
-      margin-right: 5px;
+      font-size: 10px;
+      margin-right: 6px;
+      color: #999;
+      display: inline-block;
       transition: transform 0.2s;
     }
-    .sidebar-nav li.active > a::before {
+    .sidebar-nav li.collapsible.open > a::before {
       transform: rotate(90deg);
+    }
+    .sidebar-nav li.collapsible > ul {
+      display: none;
+    }
+    .sidebar-nav li.collapsible.open > ul {
+      display: block;
+    }
+    .sidebar-nav li:not(.collapsible) > a::before {
+      content: '•';
+      font-size: 10px;
+      margin-right: 6px;
+      color: #ccc;
     }
   </style>
 </head>
@@ -44,7 +50,7 @@
       name: '山屿智能文档中心',
       repo: 'https://github.com/ShanyuKnowledge/ShanyuKnowledge.github.io',
       loadSidebar: '_sidebar.md',
-      maxLevel: 2,
+      maxLevel: 3,
       homepage: 'README.md',
       auto2top: true,
       search: {
@@ -65,9 +71,13 @@
               var link = item.querySelector('a');
               var sublist = item.querySelector('ul');
               if (link && sublist) {
+                item.classList.add('collapsible');
+                item.classList.add('open');
                 link.addEventListener('click', function(e) {
-                  e.preventDefault();
-                  item.classList.toggle('active');
+                  if (item.classList.contains('collapsible')) {
+                    e.preventDefault();
+                    item.classList.toggle('open');
+                  }
                 });
               }
             });
