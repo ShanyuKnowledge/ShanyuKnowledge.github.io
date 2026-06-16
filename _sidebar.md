@@ -1,9 +1,9 @@
 * [首页](/)
 
 * 产品文档
-  * [颜色识别分拣机器人](Docs/LGT-Nano系列.md#zmf-0001-颜色识别分拣机器人)
-  * [智慧交通系统](Docs/LGT-Nano系列.md#zmf-0002-智慧交通系统)
-  * [气象观测站](Docs/LGT-Nano系列.md#zmf-0015-气象观测站)
+  * [颜色识别分拣机器人](Docs/LGT-Nano系列/zmf-0001-颜色识别分拣机器人.md)
+  * [智慧交通系统](Docs/LGT-Nano系列/zmf-0002-智慧交通系统.md)
+  * [气象观测站](Docs/LGT-Nano系列/zmf-0015-气象观测站.md)
 * 用户指南
   * [快速入门指南](Docs/quickstart.md)
   * [安装说明](Docs/installation.md)
