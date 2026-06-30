@@ -40,7 +40,6 @@
 
 ![buzzer_size](./picture/buzzer_size.png)
 
-<a href="zh-cn/ph2.0_sensors/actuators/active_buzzer/active_buzzer_3d.zip" target="_blank">点击下载3D文件</a>
 
 ## Arduino IDE示例程序
 
@@ -62,7 +61,3 @@ void loop() {
   delay(kDelayUs);                 // 延时 1ms
 }
 ```
-
-## microbit示例程序
-
-<a href="https://makecode.microbit.org/_Fs1VH7MrtPAv" target="_blank">动手试一试</a>

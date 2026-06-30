@@ -5,11 +5,13 @@
   * [智慧交通系统](docs/LGT-Nano系列/zmf-0002-智慧交通系统/0002-智慧交通系统.md)
   * [气象观测站](docs/LGT-Nano系列/zmf-0015-气象观测站/0015-气象观测站.md)
   * [智慧停车](docs\LGT-Nano系列\智慧停车说明书.md)
+  
 * 用户指南
   * [软件下载与安装](docs/software/installation.md)
   * [Blockcode快速入门](docs/software/blockcode/quickstart.md)
   * [Blockcode程序加载与上传](docs/software/blockcode/Upload.md)
-  * [软件使用说明](docs/api.md)
+  * [ArduinoIDE2.0介绍](docs/software/arduino_ide/arduino_ide.zh-CN.md)
+  * [Mixly2.0使用介绍](docs/software/mixly/mixly.md)
   * [ch340驱动安装](docs/driver/ch340_driver/ch340_driver.md)
   * [arduino官方驱动安装](docs/driver/Arduino_official_driver/arduino_official_driver.md)
 

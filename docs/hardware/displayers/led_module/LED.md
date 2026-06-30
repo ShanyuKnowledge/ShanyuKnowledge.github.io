@@ -30,7 +30,6 @@
 
 ![size_mark](picture/size_mark.png)
 
-<a href="zh-cn/ph2.0_sensors/displayers/led_module/led_structure.zip" download>下载LED模块2D和3D设计文件</a>  
 
 ## Arduino IDE点灯示例程序
 

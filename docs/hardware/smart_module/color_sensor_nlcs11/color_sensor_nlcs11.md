@@ -18,11 +18,6 @@ NLCS11设备可进行色温测量、亮度传感。内部状态机提供了将�
 
 ![NLCS11原理图](picture/NLCS11_sch.png)
 
-<a href="zh-cn/ph2.0_sensors/smart_module/color_sensor_nlcs11/NLCS11_sch.pdf" target="_blank">点击下载NLCS11原理图</a>
-
-### 芯片规格书
-
-<a href="zh-cn/ph2.0_sensors/smart_module/color_sensor_nlcs11/NLCS11_datasheet.pdf" target="_blank">点击下载NLCS11数据手册规格书</a>
 
 ### 尺寸图
 
@@ -113,17 +108,3 @@ NLCS11设备可进行色温测量、亮度传感。内部状态机提供了将�
 | ESP32          |
 | micro:bit      |
 
-## 资料下载
-
-| 资料目录                                                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Arduino库和示例程序（C/C++）                                                                                                                                                                       |
-| ESP32库和示例程序（C/C++，MicroPython）                                                                                                                                                             |
-| micro:bit库和示例程序（MicroPython,MakeCode）[点击查看Makecode示例程序](https://makecode.microbit.org/S81407-77066-42131-87420)<br>用户库网址：<https://github.com/emakefun-makecode-extensions/emakefun_nlcs11> |
-| Mind+库链接：https://gitee.com/emakefun_midplus_lib/color-sensor  [点击查看导入方法](https://mindplus.dfrobot.com.cn/extensions-user-libraries)                                                        |
-| NLCS11原理图                                                                                                                                                                                  |
-| NLCS11数据手册                                                                                                                                                                                 |
-
-
-
-<span id="jump"><a href="zh-cn/ph2.0_sensors/smart_module/color_sensor_nlcs11/data_collection.zip" download>上述资料点击此处下载</a></span>

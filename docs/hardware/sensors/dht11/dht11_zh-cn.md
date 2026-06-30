@@ -14,13 +14,13 @@ DHT11数字温湿度传感器是一款含有已校准数字信号输出的温湿
 
 - 数据格式：8bit湿度整数数据+8bit湿度小数数据+8bit温度整数数据+8bit温度小数数据+8bit校验和数据传送正确时，校验和数据等于 ”湿度高位 + 湿度低位 + 温度高位 + 温度低位“ 所得结果的末8位。
 
-更多原理细节请<a href="zh-cn/ph2.0_sensors/sensors/dht11/dht11_datesheet.pdf" target="_blank">**点击查看DHT11规格书**</a>
+
 
 ## 原理图
 
 ![原理图](picture/dht11_sch.png)
 
-<a href="zh-cn/ph2.0_sensors/sensors/dht11/dht11_sch.pdf" target="_blank">点击此处查看原理图</a>
+
 
 ## 模块参数
 
@@ -42,7 +42,7 @@ DHT11数字温湿度传感器是一款含有已校准数字信号输出的温湿
 
 ![dht11_assembly](./picture/dht11_assembly.png)
 
-<a href="zh-cn/ph2.0_sensors/sensors/dht11/dht11_3d.zip" target="_blank">点击下载2D和3D文件</a>
+
 
 ### 传感器参数
 
@@ -86,7 +86,6 @@ DHT11数字温湿度传感器是一款含有已校准数字信号输出的温湿
 
 ## Arduino示例程序
 
-<a href="zh-cn/ph2.0_sensors/sensors/dht11/dht11_arduino_demo.zip" download>下载示例程序</a>
 
 ```c++
 #include "dht11.h"  // 导入 DHT11 库
@@ -114,17 +113,3 @@ void loop() {
   delay(200);
 }
 ```
-
-## MicroPython示例程序
-
-### ESP32 MicroPython
-
-<a href="zh-cn/ph2.0_sensors/sensors/temperature_humidity_sensor/dht11_esp32_micropython.zip" download>点击下载ESP32 MicroPython示例程序</a>
-
-### micro:bit MicroPython
-
-<a href="zh-cn/ph2.0_sensors/sensors/temperature_humidity_sensor/dht11_microbit_micropython.zip" download>点击下载micro:bit MicroPython示例程序</a>
-
-## micro:bit MakeCode示例程序
-
-<a href="https://makecode.microbit.org/_YiMV02Ksuc73" target="_blank">动手试一试</a>
