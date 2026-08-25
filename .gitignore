@@ -16,3 +16,8 @@ yarn-error.log*
 
 # Docsify build output
 _dist/
+
+# Temp files
+*.tmp
+*.bak
+*~
