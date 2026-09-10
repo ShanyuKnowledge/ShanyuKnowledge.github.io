@@ -4,17 +4,17 @@
 - **开始新作品**：基于全新技术开发，更加轻量级和高效；
 - **精彩作品**：融合了多种图形化编程工具，让您更便捷地启动新项目；
 
-![](_media/ui-home.png '软件首页')
+![](software/blockcode/_media/ui-home.png '软件首页')
 
 ## 开始新作品
 
 从“开始新作品”中选择一个硬件（或功能）点击，即可进入编程（或功能）界面。不同的硬件编程界面可能有细微差异，我们以 LGT8F328P 硬件为例介绍一下编程界面的布局。
 
-![](_media/ui-LGT8F328P-icon.png)
+![](software/blockcode/_media/ui-LGT8F328P-icon.png)
 
 首先点击“LGT8F328P”的硬件图标，进入到 LGT8F328P 编程界面：
 
-![](_media/ui-arduino.png 'LGT8F328P 编程界面')
+![](software/blockcode/_media/ui-arduino.png 'LGT8F328P 编程界面')
 
 - **菜单栏**：作品编辑和功能菜单。
   - **文件菜单**：新建及保存作品。
@@ -46,20 +46,20 @@
 3. 再从**“引脚”**类积木中拖出两个**“将引脚[0]设为(高电平)”**的积木分别放在两个**“等待(1000)毫秒”**积木前。
 4. 最后把两个**“将引脚[0]设为(高电平)”**中的引脚参数都改为**“13”**，另一个参数分别改为**“高电平”**和**“低电平”**。
 
-![](_media/program-1.png '第一个程序')
+![](software/blockcode/_media/program-1.png '第一个程序')
 
 ## 下载程序
 
 将你的 LGT Nano 开发板连接到电脑 USB 接口上（如有需要，先安装好驱动，确保串口连接正常）。
 
-![](_media/ui-device-menu.png '设备菜单')
+![](software/blockcode/_media/ui-device-menu.png '设备菜单')
 
 1. 在“LGT Nano”设备菜单中，找到“通过 USB 连接…”选项，点击后在对话框中选中开发板，然后点击“连接”按钮。
 <br/>
-   ![](_media/ui-connect-device.png '连接开发板')<br/>
+   ![](software/blockcode/_media/ui-connect-device.png '连接开发板')<br/>
    _(如果对话框中没有显示开发板，请检查开发板连接或重新安装驱动。)_
 2. 点击菜单栏的“下载程序”按钮，程序将被编译并下载到开发板上。<br/>
-   ![](_media/ui-device-download.png '下载程序')<br/>
+   ![](software/blockcode/_media/ui-device-download.png '下载程序')<br/>
    _(如果下载失败，可以在“日志”窗口中查看原因：如果编译失败，则表示程序有误，请检查程序；如果断开连接，请检查开发板连接。)_
 
 ## 运行程序
