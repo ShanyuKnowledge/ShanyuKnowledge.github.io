@@ -26,7 +26,7 @@
 
 ![win7](./picture/win7_installdriver_1.png)
 
-2、需要<a href="zh-cn/driver/esp32_driver/idf-driver-esp32-usb-jtag-2021-07-15.zip" download>下载ESP32S3官方驱动程序</a>，然后解压。按如下步骤浏览我的电脑选择，下载驱动程序文件夹
+2、需要<a href="idf-driver-esp32-usb-jtag-2021-07-15.zip" download>下载ESP32S3官方驱动程序</a>，然后解压。按如下步骤浏览我的电脑选择，下载驱动程序文件夹
 
 ![](./picture/win7_installdriver_2.png)
 
@@ -46,7 +46,7 @@
 
 不管你是win7还是win10都可以尝试。
 
-如果没有出现上面安装成功的截图，提示失败，或者任意一个有黄色感叹号，那就代表安装还是不成功，则说明win7缺乏系统文件，或者驱动被误识别，就需要用终极大招-------大名鼎鼎的<a href="zh-cn/driver/esp32_driver/zadig-2.9.exe" download>下载zadig</a> 来修复驱动
+如果没有出现上面安装成功的截图，提示失败，或者任意一个有黄色感叹号，那就代表安装还是不成功，则说明win7缺乏系统文件，或者驱动被误识别，就需要用终极大招-------大名鼎鼎的<a href="zadig-2.9.exe" download>下载zadig</a> 来修复驱动
 
 到这里 我和大家理一下，ESP32S3 USB其实是有三种用法和驱动
 

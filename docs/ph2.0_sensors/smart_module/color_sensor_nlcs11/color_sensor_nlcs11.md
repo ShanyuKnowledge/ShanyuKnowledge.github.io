@@ -18,11 +18,11 @@ NLCS11设备可进行色温测量、亮度传感。内部状态机提供了将�
 
 ![NLCS11原理图](picture/NLCS11_sch.png)
 
-<a href="zh-cn/ph2.0_sensors/smart_module/color_sensor_nlcs11/NLCS11_sch.pdf" target="_blank">点击下载NLCS11原理图</a>
+<a href="zh-cn/PH2.0_sensors/smart_module/color_sensor_nlcs11/NLCS11_sch.pdf" target="_blank">点击下载NLCS11原理图</a>
 
 ### 芯片规格书
 
-<a href="zh-cn/ph2.0_sensors/smart_module/color_sensor_nlcs11/NLCS11_datasheet.pdf" target="_blank">点击下载NLCS11数据手册规格书</a>
+<a href="zh-cn/PH2.0_sensors/smart_module/color_sensor_nlcs11/NLCS11_datasheet.pdf" target="_blank">点击下载NLCS11数据手册规格书</a>
 
 ### 尺寸图
 
@@ -126,4 +126,4 @@ NLCS11设备可进行色温测量、亮度传感。内部状态机提供了将�
 
 
 
-<span id="jump"><a href="zh-cn/ph2.0_sensors/smart_module/color_sensor_nlcs11/data_collection.zip" download>上述资料点击此处下载</a></span>
+<span id="jump"><a href="zh-cn/PH2.0_sensors/smart_module/color_sensor_nlcs11/data_collection.zip" download>上述资料点击此处下载</a></span>

@@ -129,7 +129,7 @@ Raspberry Pi Pico ：搜索"pico"，安装"Arduino Mbed OS RP2040 Boards"<br>
 
 📥 **下载em_led库压缩包**
 
-<a href="zh-cn/software/arduino_ide/em_led.zip" download>点击下载离线库</a>，
+<a href="em_led.zip" download>点击下载离线库</a>，
 
 在文件夹中找到 em_led.zip
 
@@ -464,7 +464,7 @@ void LED::detach()
 ```
 
 和`led.cpp` 的源代码， examples中存放着`blink.ino` ，可以通过调用它实现点亮主板上自带的led灯的效果。
-<a href="zh-cn/software/arduino_ide/em_led.zip" download>点击下载以上示例库</a>，
+<a href="em_led.zip" download>点击下载以上示例库</a>，
 
 ### 在Arduino上使用自己的库
 

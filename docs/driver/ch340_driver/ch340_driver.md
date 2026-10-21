@@ -24,7 +24,7 @@
 
 ![download](_media/download.png)
 
-2）打开下载的驱动程序，根据安装向导的提示完成安装。在安装过程中，可能需要选择操作系统类型和设备类型。如下图（如果动图不显示，请点击此**<a href="zh-cn/driver/ch340_driver/_media/drive.gif" download>gif动图</a>**）：
+2）打开下载的驱动程序，根据安装向导的提示完成安装。在安装过程中，可能需要选择操作系统类型和设备类型。如下图（如果动图不显示，请点击此**<a href="_media/drive.gif" download>gif动图</a>**）：
 
 ![drive](_media/drive.gif)
 

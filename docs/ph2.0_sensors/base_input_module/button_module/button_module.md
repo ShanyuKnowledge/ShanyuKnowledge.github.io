@@ -20,7 +20,7 @@
 
 ![尺寸图](picture/button_assembly.png)
 
-<a href="zh-cn/ph2.0_sensors/base_input_module/button_module/button_module3d.zip" download>下载按键模块3D文件</a>
+<a href="zh-cn/PH2.0_sensors/base_input_module/button_module/button_module3d.zip" download>下载按键模块3D文件</a>
 
 ## 模块参数
 
@@ -50,7 +50,7 @@
 
 ### Arduino示例程序
 
-<a href="zh-cn/ph2.0_sensors/base_input_module/button_module/button_module.zip" download>下载示例程序</a>
+<a href="zh-cn/PH2.0_sensors/base_input_module/button_module/button_module.zip" download>下载示例程序</a>
 
 ```cpp
 namespace {
@@ -79,7 +79,7 @@ void loop() {
 
 ![mixly_demo](./picture/mixly_demo.png)
 
-<a href="zh-cn/ph2.0_sensors/base_input_module/button_module/button_mixly_demo.zip" download>下载示例程序</a>
+<a href="zh-cn/PH2.0_sensors/base_input_module/button_module/button_mixly_demo.zip" download>下载示例程序</a>
 
 ### micro:bit示例程序
 
@@ -95,7 +95,7 @@ LED模块通过3Pin线接在主板P2口（esp32  IO2）；
 
 ![esp32_button_wiring](./picture/esp32_button_wiring.png)
 
-<a href="zh-cn/ph2.0_sensors/base_input_module/button_module/esp32_micropython.zip" download>示例程序下载</a>
+<a href="zh-cn/PH2.0_sensors/base_input_module/button_module/esp32_micropython.zip" download>示例程序下载</a>
 
 ```
 from machine import Pin
