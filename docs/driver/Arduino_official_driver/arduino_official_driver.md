@@ -2,7 +2,7 @@
 
 ## 驱动下载
 
-<a href="../arduino_official_driver/drivers.zip" download>下载Arduino Uno官方驱动程序</a>，
+<a href="/docs/driver/Arduino_official_driver/drivers.zip" download>下载Arduino Uno官方驱动程序</a>，
 
 打开解压后的文件，打开**“drivers”**文件夹如果你的电脑是32位系统，就运行dpinst-x86.exe如果是64位系统，就运行dpinst-amd64.exe然后在弹出的对话框中点击“下一步”，即可完成安装，如下图：
 
