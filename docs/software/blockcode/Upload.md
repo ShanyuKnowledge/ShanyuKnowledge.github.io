@@ -37,4 +37,6 @@ https://make.blockcode.fun/
 程序下载完成后，设备会重启，程序将自动运行。这个程序的运行效果是开发板上的 LED 灯交替闪烁。
 
 
-[ch340驱动安装](../../driver/ch340_driver/ch340_driver.md)
+[ch340驱动安装](docs/driver/ch340_driver/ch340_driver.md)
+
+<a href="/docs/driver/Arduino_official_driver/drivers.zip" download>下载Arduino Uno官方驱动程序</a>
